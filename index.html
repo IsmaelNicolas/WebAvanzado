@@ -110,15 +110,20 @@
             -->
     </section>
 
-    <form action=""> <!--Deyvid-->
-            <!--
-                Aqui va el formulario
-                Nombre  _______  Apellido _________
-                correo_______
-                Celular ______
-                Comentarios ________
-                    Botoncito chevere :v 
-            -->
+    <form action=""> 
+	<body>
+         <div style="text-align:center;">
+             <form id="miFormulario" name="miFormulario" method="post" action="formulario.php">
+                 Nombre: <input type="text" id="txtNombre" name="txtNombre" /><br/><br/>
+                 Apellidos: <input type="text" id="txtApellidos" name="txtApellidos" /><br/><br/>
+		         Correo: <input type="text" id="txtCorreo" name="txtCorreo" /><br/><br/>
+                 Celular: <input type="text" id="txtCelular" name="txtCelular" /><br/><br/>
+                 Comentarios:  <input type="text" id="txtComentario" name="txtComentario" /><br/><br/>
+                 <input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar el formulario" />
+         </form>
+      </div>
+    </body>
+    </form>
 
     </form>
 
